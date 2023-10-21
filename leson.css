@@ -1,0 +1,39 @@
+a:link {
+    font-size: larger;
+    border: 5px dotted;
+}
+
+a:visited {
+    font-size:xx-small;
+}
+
+a:hover {
+    font-size: x-large;
+}
+
+a:focus {
+    font-size: x-large;
+}
+
+a:not([class]) {
+    font-size: 100px;
+}
+
+p:first-child {
+    background-color: aqua;
+}
+p:nth-child(even) {
+    color: red;
+}
+
+p:nth-child(odd) {
+    color:darkmagenta;
+}
+
+p:nth-child(n+7) {
+    font-size: x-large;
+}
+
+p:nth-child(3) {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
